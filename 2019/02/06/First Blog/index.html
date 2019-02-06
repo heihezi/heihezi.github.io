@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>HeiHeZi`s Blog</title>
+  <title>python中计算日期间隔天数 | HeiHeZi`s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="python中计算日期间隔天数12345678910111213import time# 间隔天数def interval(sday, eday):    start_sec = time.mktime(time.strptime(sday, &apos;%Y-%m-%d&apos;))    end_sec = time.mktime(time.strptime(eday, &apos;%Y-%m-%d&apos;))    work">
+<meta name="keywords" content="python,间隔天数">
 <meta property="og:type" content="article">
-<meta property="og:title" content="HeiHeZi`s Blog">
+<meta property="og:title" content="python中计算日期间隔天数">
 <meta property="og:url" content="http://yoursite.com/2019/02/06/First Blog/index.html">
 <meta property="og:site_name" content="HeiHeZi`s Blog">
 <meta property="og:description" content="python中计算日期间隔天数12345678910111213import time# 间隔天数def interval(sday, eday):    start_sec = time.mktime(time.strptime(sday, &apos;%Y-%m-%d&apos;))    end_sec = time.mktime(time.strptime(eday, &apos;%Y-%m-%d&apos;))    work">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-02-06T03:13:03.743Z">
+<meta property="og:updated_time" content="2019-02-06T05:53:27.884Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HeiHeZi`s Blog">
+<meta name="twitter:title" content="python中计算日期间隔天数">
 <meta name="twitter:description" content="python中计算日期间隔天数12345678910111213import time# 间隔天数def interval(sday, eday):    start_sec = time.mktime(time.strptime(sday, &apos;%Y-%m-%d&apos;))    end_sec = time.mktime(time.strptime(eday, &apos;%Y-%m-%d&apos;))    work">
   
     <link rel="alternative" href="/atom.xml" title="HeiHeZi`s Blog" type="application/atom+xml">
@@ -157,6 +158,21 @@
             <article id="post-First Blog" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      python中计算日期间隔天数
+    </h1>
+  
+
+        
+        <a href="/2019/02/06/First Blog/" class="archive-article-date">
+  	<time datetime="2019-02-06T03:30:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-06</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="python中计算日期间隔天数"><a href="#python中计算日期间隔天数" class="headerlink" title="python中计算日期间隔天数"></a>python中计算日期间隔天数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="comment"># 间隔天数</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">interval</span><span class="params">(sday, eday)</span>:</span></span><br><span class="line">    start_sec = time.mktime(time.strptime(sday, <span class="string">'%Y-%m-%d'</span>))</span><br><span class="line">    end_sec = time.mktime(time.strptime(eday, <span class="string">'%Y-%m-%d'</span>))</span><br><span class="line">    work_days = int((end_sec-start_sec)/(<span class="number">24</span>*<span class="number">3600</span>))</span><br><span class="line">    print(work_days)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    starday = <span class="string">'2019-2-5'</span></span><br><span class="line">    endday = <span class="string">'2019-12-25'</span></span><br><span class="line">    interval(starday, endday)</span><br></pre></td></tr></table></figure>
@@ -188,7 +204,33 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">间隔天数</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/python//" class="article-tag-list-link color2">python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -378,6 +420,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">间隔天数</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
